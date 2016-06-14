@@ -1,4 +1,4 @@
-# Pre-work - *To-do To-day*
+# *To-do To-day*
 
 **To-do To-day** is an Android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
