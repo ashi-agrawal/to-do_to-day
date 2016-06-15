@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         if(resultCode == RESULT_OK && requestCode == REQUEST_CODE){
-            System.out.println("wowie");
             String text = data.getStringExtra("text");
             int pos = data.getIntExtra("pos", 0);
             items.set(pos, text);
